@@ -9,7 +9,7 @@ jobs:
       - run: npm clean-install
       - run: npm run test
 
-build-push:
+  build-push:
   needs: test
   runs-on: ubuntu-latest
   steps:
