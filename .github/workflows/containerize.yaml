@@ -1,5 +1,5 @@
 name: containerize
-on: [push]
+on: [push] #makan
 jobs:
   test:
     runs-on: ubuntu-latest
