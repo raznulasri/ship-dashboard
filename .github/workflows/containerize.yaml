@@ -25,4 +25,4 @@ jobs:
           tags: ghcr.io/${{ github.repository }}:latest
 
   permissions:
-    packages: write
+    packages: write #
